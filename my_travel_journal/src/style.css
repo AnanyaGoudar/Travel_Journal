@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter"
+}
+
+.travel--icon{
+  vertical-align: bottom;
+  font-size: 20px;
+}
+
+nav{
+  height: 50px;
+  justify-content: center;
+  background: #F55A5A;
+  padding-left: 0;
+  padding-top: 0;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+}
+
+nav >h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  /* padding-left: 750px; */
+}
+
+.card--location{
+   display: flex; 
+   align-items: center;
+}
+
+section{
+  padding: 40px;
+}
+
+.card--img{
+  width: 40%;
+  height: 268px;
+  position: relative;
+  /* float: left; */
+  border-radius: 5px;
+}
+
+.card--content{
+  padding-left: 30px;
+  float: right;
+  text-align: left;
+  width:60%;
+  padding-top: 35px;
+}
+
+.locationIcon{
+  width: 20px;
+  left:339px;
+  color: #F55A5A;
+}
+
+.card--el{
+  flex-direction:column;
+  justify-content: space-between;
+  /* display: flex; */
+}
+
+.cards-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+hr{
+  width: 100%;
+  /* border: 1px solid gray; */
+  height: 1px;
+}
+
+.city--name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.24px;
+  text-align: center;
+  line-height: 9px;
+  letter-spacing: 0.17em;
+  left: 360px;
+  color: #2B283A;
+}
+
+a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.24px;
+  line-height: 12px;
+  padding-left: 12px;
+
+  color: #918E9B;
+}
+
+.location--name{
+  width: 326px;
+  height: 40px;
+  left: 345px;
+  top: 125px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+
+  color: #2B283A;
+}
+
+.travel--duration{
+  width: 319px;
+  height: 11px;
+  left: 345px;
+  top: 165px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+}
+
+.place-desc{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.24px;
+  line-height: 20px;
+
+  color: #F55A5A;
+}
